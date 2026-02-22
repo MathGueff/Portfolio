@@ -12,7 +12,7 @@ export function Technologies() {
           {technologies.map((tech) => (
             <li key={tech.name}>
               <span className="inline-flex items-center gap-2 rounded-full border border-amber/40 bg-night/60 px-4 py-2 text-sm font-medium text-moon-silver transition hover:border-amber hover:bg-amber/10 hover:text-amber">
-                <Image className="w-6 h-6" src={tech.iconUrl} alt={tech.name} width={20} height={20} />
+                <Image className="w-6 h-6 shrink-0" src={tech.iconUrl} alt={tech.name} width={24} height={24} unoptimized />
                 {tech.name}
               </span>
             </li>
