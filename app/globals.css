@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --night: #0f172a;
+  --night-light: #1e293b;
+  --moon-silver: #cbd5e1;
+  --moon-light: #f1f5f9;
+  --violet: #7c3aed;
+  --amber: #f59e0b;
+  --amber-dark: #d97706;
+  --moss: #65a30d;
+}
+
+body {
+  @apply bg-night text-moon-silver antialiased;
+  background: linear-gradient(180deg, var(--night) 0%, var(--night-light) 50%, #334155 100%);
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-pattern-moon {
+  background-image: radial-gradient(circle at 20% 80%, rgba(124, 58, 237, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(245, 158, 11, 0.06) 0%, transparent 40%);
+}
