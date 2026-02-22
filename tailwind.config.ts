@@ -10,29 +10,29 @@ const config: Config = {
     extend: {
       colors: {
         night: {
-          DEFAULT: "#0f172a",
-          light: "#1e293b",
-          softer: "#334155",
+          DEFAULT: "#0F1A2C",
+          light: "#1A243D",
+          softer: "#2B3A5A",
         },
         moon: {
-          silver: "#cbd5e1",
-          light: "#f1f5f9",
-          white: "#f8fafc",
+          silver: "#87CEEB",
+          light: "#D0EEFF",
+          white: "#E0F7FF",
         },
         violet: {
-          dark: "#4c1d95",
-          DEFAULT: "#7c3aed",
-          light: "#a78bfa",
+          dark: "#1E4D4C",
+          DEFAULT: "#448A89",
+          light: "#5BA3A2",
         },
         amber: {
-          dark: "#d97706",
-          DEFAULT: "#f59e0b",
-          light: "#fbbf24",
+          dark: "#0EA5E9",
+          DEFAULT: "#7DD3FC",
+          light: "#BAE6FD",
         },
         moss: {
-          dark: "#365314",
-          DEFAULT: "#65a30d",
-          light: "#84cc16",
+          dark: "#1E4D4C",
+          DEFAULT: "#2D6B6A",
+          light: "#448A89",
         },
       },
       fontFamily: {
@@ -40,8 +40,8 @@ const config: Config = {
         mono: ["var(--font-geist-mono)", "monospace"],
       },
       backgroundImage: {
-        "gradient-night": "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%)",
-        "gradient-moon": "linear-gradient(180deg, #0f172a 0%, #1e293b 40%, #4c1d95 100%)",
+        "gradient-night": "linear-gradient(135deg, #0F1A2C 0%, #1A243D 50%, #2B3A5A 100%)",
+        "gradient-moon": "linear-gradient(180deg, #0F1A2C 0%, #1A243D 40%, #2B3A5A 100%)",
       },
     },
   },
